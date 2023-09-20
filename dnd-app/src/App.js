@@ -1,13 +1,14 @@
-import logo from './logo.svg';
-import CreateCharacter from './pages/CreateCharacter';
-import './App.css';
-import { ChakraProvider } from '@chakra-ui/react'
 
+import './App.css';
+import { ChakraProvider } from '@chakra-ui/react';
+import AppRouter from './AppRouter';
+import NavHeading from './components/NavHeading'
 
 function App() {
   return (
     <ChakraProvider>
-    <CreateCharacter></CreateCharacter>
+      <NavHeading></NavHeading>
+      <AppRouter />
     </ChakraProvider>
   );
 }
