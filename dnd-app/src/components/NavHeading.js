@@ -28,9 +28,6 @@ class NavHeading extends React.Component {
                         </Breadcrumb>
                     </Container>
                 </main>
-                <footer>
-                    <p>footer</p>
-                </footer>
             </div>
         );
     }
