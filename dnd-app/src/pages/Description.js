@@ -17,16 +17,10 @@ class Description extends React.Component {
         <Container bg='red'>
           <FormLabel>Description</FormLabel>
           <Input />
-          <FormHelperText>Give your character a name!</FormHelperText>
+          <FormHelperText>Describe your character</FormHelperText>
         </Container>
         <Container pt='50px'>
-          <FormLabel>Search</FormLabel>
           <Input />
-          <SimpleGrid pt='10px' columns={1} spacing={10}>
-            <Button height='100px'>
-              <Heading>Human</Heading>
-            </Button>
-          </SimpleGrid>
         </Container>
       </FormControl>
     );

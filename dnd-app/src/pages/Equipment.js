@@ -14,19 +14,14 @@ class Equipment extends React.Component {
   render() {
     return (
       <FormControl>
-        <Container bg='red'>
+        <Container>
           <FormLabel>Equipment</FormLabel>
           <Input />
-          <FormHelperText>Give your character a name!</FormHelperText>
+          <FormHelperText>Give your character equipment</FormHelperText>
         </Container>
         <Container pt='50px'>
-          <FormLabel>Search</FormLabel>
+          <FormLabel>Enter</FormLabel>
           <Input />
-          <SimpleGrid pt='10px' columns={1} spacing={10}>
-            <Button height='100px'>
-              <Heading>Human</Heading>
-            </Button>
-          </SimpleGrid>
         </Container>
       </FormControl>
     );
